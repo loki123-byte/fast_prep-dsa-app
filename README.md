@@ -24,3 +24,8 @@ FastPrep DSA App is a full-stack web application designed to help users prepare 
  Project Structure
  --backend/ → API, routes
  --database frontend/ → React UI
+
+## 📸 Screenshots
+
+### Home Page
+![Home](home-page.png)
