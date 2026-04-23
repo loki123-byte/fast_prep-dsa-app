@@ -1,0 +1,81 @@
+const questions = {
+  google: [
+    { title: "Two Sum", difficulty: "Easy", link: "https://leetcode.com/problems/two-sum/" },
+    { title: "Longest Substring Without Repeating Characters", difficulty: "Medium", link: "https://leetcode.com/problems/longest-substring-without-repeating-characters/" },
+    { title: "Median of Two Sorted Arrays", difficulty: "Hard", link: "https://leetcode.com/problems/median-of-two-sorted-arrays/" },
+    { title: "Merge Intervals", difficulty: "Medium", link: "https://leetcode.com/problems/merge-intervals/" },
+    { title: "Product of Array Except Self", difficulty: "Medium", link: "https://leetcode.com/problems/product-of-array-except-self/" },
+    { title: "Valid Parentheses", difficulty: "Easy", link: "https://leetcode.com/problems/valid-parentheses/" },
+    { title: "Binary Tree Level Order Traversal", difficulty: "Medium", link: "https://leetcode.com/problems/binary-tree-level-order-traversal/" },
+    { title: "Kth Largest Element", difficulty: "Medium", link: "https://leetcode.com/problems/kth-largest-element-in-an-array/" },
+    { title: "Word Search", difficulty: "Medium", link: "https://leetcode.com/problems/word-search/" },
+    { title: "Trapping Rain Water", difficulty: "Hard", link: "https://leetcode.com/problems/trapping-rain-water/" },
+  ],
+
+  amazon: [
+    { title: "Reverse Linked List", difficulty: "Easy", link: "https://leetcode.com/problems/reverse-linked-list/" },
+    { title: "LRU Cache", difficulty: "Medium", link: "https://leetcode.com/problems/lru-cache/" },
+    { title: "Top K Frequent Elements", difficulty: "Medium", link: "https://leetcode.com/problems/top-k-frequent-elements/" },
+    { title: "Number of Islands", difficulty: "Medium", link: "https://leetcode.com/problems/number-of-islands/" },
+    { title: "Min Stack", difficulty: "Easy", link: "https://leetcode.com/problems/min-stack/" },
+    { title: "Search in Rotated Sorted Array", difficulty: "Medium", link: "https://leetcode.com/problems/search-in-rotated-sorted-array/" },
+    { title: "Course Schedule", difficulty: "Medium", link: "https://leetcode.com/problems/course-schedule/" },
+    { title: "Rotting Oranges", difficulty: "Medium", link: "https://leetcode.com/problems/rotting-oranges/" },
+    { title: "Word Ladder", difficulty: "Hard", link: "https://leetcode.com/problems/word-ladder/" },
+    { title: "Serialize Binary Tree", difficulty: "Hard", link: "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/" },
+  ],
+
+  microsoft: [
+    { title: "Climbing Stairs", difficulty: "Easy", link: "https://leetcode.com/problems/climbing-stairs/" },
+    { title: "House Robber", difficulty: "Medium", link: "https://leetcode.com/problems/house-robber/" },
+    { title: "Set Matrix Zeroes", difficulty: "Medium", link: "https://leetcode.com/problems/set-matrix-zeroes/" },
+    { title: "Spiral Matrix", difficulty: "Medium", link: "https://leetcode.com/problems/spiral-matrix/" },
+    { title: "Add Two Numbers", difficulty: "Medium", link: "https://leetcode.com/problems/add-two-numbers/" },
+    { title: "Intersection of Two Arrays", difficulty: "Easy", link: "https://leetcode.com/problems/intersection-of-two-arrays/" },
+    { title: "Longest Palindromic Substring", difficulty: "Medium", link: "https://leetcode.com/problems/longest-palindromic-substring/" },
+    { title: "Word Break", difficulty: "Medium", link: "https://leetcode.com/problems/word-break/" },
+    { title: "Binary Tree Maximum Path Sum", difficulty: "Hard", link: "https://leetcode.com/problems/binary-tree-maximum-path-sum/" },
+    { title: "Alien Dictionary", difficulty: "Hard", link: "https://leetcode.com/problems/alien-dictionary/" },
+  ],
+
+  meta: [
+    { title: "Valid Palindrome", difficulty: "Easy", link: "https://leetcode.com/problems/valid-palindrome/" },
+    { title: "Clone Graph", difficulty: "Medium", link: "https://leetcode.com/problems/clone-graph/" },
+    { title: "Course Schedule II", difficulty: "Medium", link: "https://leetcode.com/problems/course-schedule-ii/" },
+    { title: "Binary Tree Right Side View", difficulty: "Medium", link: "https://leetcode.com/problems/binary-tree-right-side-view/" },
+    { title: "Subarray Sum Equals K", difficulty: "Medium", link: "https://leetcode.com/problems/subarray-sum-equals-k/" },
+    { title: "Maximum Product Subarray", difficulty: "Medium", link: "https://leetcode.com/problems/maximum-product-subarray/" },
+    { title: "Accounts Merge", difficulty: "Medium", link: "https://leetcode.com/problems/accounts-merge/" },
+    { title: "Insert Interval", difficulty: "Medium", link: "https://leetcode.com/problems/insert-interval/" },
+    { title: "Minimum Window Substring", difficulty: "Hard", link: "https://leetcode.com/problems/minimum-window-substring/" },
+    { title: "Word Ladder II", difficulty: "Hard", link: "https://leetcode.com/problems/word-ladder-ii/" },
+  ],
+
+  apple: [
+    { title: "Best Time to Buy and Sell Stock", difficulty: "Easy", link: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" },
+    { title: "Container With Most Water", difficulty: "Medium", link: "https://leetcode.com/problems/container-with-most-water/" },
+    { title: "3Sum", difficulty: "Medium", link: "https://leetcode.com/problems/3sum/" },
+    { title: "Rotate Image", difficulty: "Medium", link: "https://leetcode.com/problems/rotate-image/" },
+    { title: "Group Anagrams", difficulty: "Medium", link: "https://leetcode.com/problems/group-anagrams/" },
+    { title: "Longest Consecutive Sequence", difficulty: "Medium", link: "https://leetcode.com/problems/longest-consecutive-sequence/" },
+    { title: "Decode Ways", difficulty: "Medium", link: "https://leetcode.com/problems/decode-ways/" },
+    { title: "Jump Game", difficulty: "Medium", link: "https://leetcode.com/problems/jump-game/" },
+    { title: "Sudoku Solver", difficulty: "Hard", link: "https://leetcode.com/problems/sudoku-solver/" },
+    { title: "N-Queens", difficulty: "Hard", link: "https://leetcode.com/problems/n-queens/" },
+  ],
+
+  netflix: [
+    { title: "Meeting Rooms", difficulty: "Easy", link: "https://leetcode.com/problems/meeting-rooms/" },
+    { title: "Meeting Rooms II", difficulty: "Medium", link: "https://leetcode.com/problems/meeting-rooms-ii/" },
+    { title: "Insert Interval", difficulty: "Medium", link: "https://leetcode.com/problems/insert-interval/" },
+    { title: "Merge Intervals", difficulty: "Medium", link: "https://leetcode.com/problems/merge-intervals/" },
+    { title: "Task Scheduler", difficulty: "Medium", link: "https://leetcode.com/problems/task-scheduler/" },
+    { title: "Reconstruct Itinerary", difficulty: "Hard", link: "https://leetcode.com/problems/reconstruct-itinerary/" },
+    { title: "Graph Valid Tree", difficulty: "Medium", link: "https://leetcode.com/problems/graph-valid-tree/" },
+    { title: "Design Twitter", difficulty: "Medium", link: "https://leetcode.com/problems/design-twitter/" },
+    { title: "Word Ladder", difficulty: "Hard", link: "https://leetcode.com/problems/word-ladder/" },
+    { title: "Course Schedule", difficulty: "Medium", link: "https://leetcode.com/problems/course-schedule/" },
+  ],
+};
+
+export default questions;
