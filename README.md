@@ -28,4 +28,4 @@ FastPrep DSA App is a full-stack web application designed to help users prepare 
 ## 📸 Screenshots
 
 ### Home Page
-![Home](home-page.png)
+![Home](home-page.jpg.png)
